@@ -2,8 +2,6 @@
 <html lang="en">
 
 <head>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
         body {
             margin: 10%;
@@ -23,7 +21,7 @@
             position: relative;
             list-style: none;
             height: 100%;
-            width: 1000%;
+            width: 10000%;
             padding: 0;
             margin: 0;
             transition: all 700ms ease;
@@ -40,6 +38,7 @@
         #slider ul li img {
 
             height: 265px;
+            padding: 2px;
         }
 
         #slider #prev,
@@ -10671,9 +10670,8 @@
 
                                                     <section>
                                                         <div id="slider">
-                                                            <ul id="slideWrap">
-                                                                <li><img src="https://static.wixstatic.com/media/22c3b7_5a7e7d1da48646ef9183cdf8dbd07eb5~mv2.png/v1/crop/x_0,y_91,w_1267,h_1115/fill/w_87,h_77,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_auto/Screenshot%202022-06-30%20014012.png"
-                                                                        alt=""></li>
+                                                            <ul id="slideWrap" width="300%">
+                                                                <li><img src= "git_images/img1.png" alt=""></li>
                                                                 <li><img src="https://static.wixstatic.com/media/22c3b7_718f180c43d34510a9685fa31931b774~mv2.jpg/v1/fill/w_102,h_77,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_auto/IMG_4140.jpg"
                                                                         alt=""></li>
                                                                 <li><img src="https://static.wixstatic.com/media/22c3b7_2e4672691b4d4a9cb892bc940f5f5fa4~mv2.png/v1/crop/x_0,y_251,w_1276,h_942/fill/w_104,h_76,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_auto/Screenshot%202022-06-30%20013921.png"
@@ -10714,7 +10712,7 @@
                                                                 var sliderWidth = slider.offsetWidth;
                                                                 var slideList = document.getElementById("slideWrap");
                                                                 var count = 1;
-                                                                var items = slideList.querySelectorAll("li").length;
+                                                                var items = 3;
                                                                 var prev = document.getElementById("prev");
                                                                 var next = document.getElementById("next");
 
